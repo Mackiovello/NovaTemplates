@@ -1,0 +1,12 @@
+﻿{
+  "author": "Erlend Landrö",
+  "classifications": [ "Console" ],
+  "name": "Starcounter Console Starter",
+  "identity": "SC.ConsoleStarter",
+  "shortName": "scconsole",
+  "tags": {
+    "language": "C#"
+  },
+  "sourceName": "SC.ConsoleStarter",
+  "preferNameDirectory": true
+}

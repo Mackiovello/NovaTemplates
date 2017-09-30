@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include=".template.config\template.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="runtime.native.Starcounter.Bluestar" Version="2.4.0-*" />
+    <PackageReference Include="Starcounter.Core" Version="0.6.0" />
+    <PackageReference Include="Starcounter.Core.Hosting" Version="0.6.0" />
+    <PackageReference Include="Starcounter.Core.Options" Version="0.6.0" />
+  </ItemGroup>
+</Project>
